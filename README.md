@@ -1,6 +1,6 @@
 # Image Manipulation Software
 
-A small graphical image editor written in C, using the [IUP](https://www.tecgraf.puc-rio.br/iup/) toolkit for the GUI. Built as a structured-programming exercise: pixel data is read, manipulated, and written back out entirely by hand — no ready-made grayscale/blur/etc. functions from an image library.
+A small graphical image editor written in C, using the [IUP](https://www.tecgraf.puc-rio.br/iup/) toolkit for the GUI. Pixel data is read, manipulated, and written back out entirely by hand — no ready-made grayscale/blur/etc. functions from an image library.
 
 Works on **24-bit uncompressed BMP** images only.
 
@@ -67,4 +67,4 @@ Adjust the `-I`/`-L` paths if IUP is installed somewhere else on your machine. K
 ## Known limitations
 
 - Undo only remembers one step back, not a full history.
-- Only 24-bit uncompressed BMP is supported, per the assignment spec — no PNG/JPEG/compressed BMP.
+- Only 24-bit uncompressed BMP is supported — no PNG/JPEG/compressed BMP.
